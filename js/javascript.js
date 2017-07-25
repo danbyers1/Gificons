@@ -16,6 +16,7 @@
          a.attr("data-name", transformers[i]);
          a.text(transformers[i]);
         $("#buttons-view").append(a);
+        console.log(transformers);
        }
      }
 
