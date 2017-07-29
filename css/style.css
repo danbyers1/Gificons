@@ -23,11 +23,31 @@ form{
 }
 
 button{
-	margin: 10px;
+	margin: 0 10px 10px 0;
 	align-items: center;
-	color:black!important;
+	background:#4C47AE;
+	color:white!important;
+	border-radius: 5px;
+	border:0;
+	padding: 5px 20px;
+	font-size: 18px;
+	box-shadow: 1px 1px #BF0000;
+
 }
 
-#tran-input{
+#add-tran{
+	margin: 0 10px 10px 0;
+	align-items: center;
+	background:#BF0000;
+	color:white!important;
+	border-radius: 5px;
+	border: 0;
+	padding: 5px 20px;
+	font-size: 18px;
+	box-shadow: 1px 1px #4C47AE;
+}
+
+.search-item{
+	float: left;
 	padding: 5px;
 }
